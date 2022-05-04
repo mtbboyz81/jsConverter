@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Metric/Imperial unit conversion</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="title-text">
+                <h1>Metric/Imperial unit conversion</h1>
+            </div>
+            <div class="input-number">
+                <input type="number" id="input-n" min="0" value="1">
+            </div>
+            <div>
+                <button id="calc-btn" onclick="calculate()">Calculate</button>
+            </div>
+                
+        </header>
+        <main>
+            <div class="output">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length-el"></p>
+            </div>
+            <div class="output">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-el"></p>
+            </div>
+            <div class="output">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-el"></p>
+            </div>
+            
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
